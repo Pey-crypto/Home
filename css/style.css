@@ -1,0 +1,39 @@
+#info{
+    overflow: hidden;
+    border-right: 30px  rgb(255, 255, 255) solid;
+    white-space: nowrap;
+    margin:0 auto;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: 100;
+    font-size: larger;
+    display: block;
+    color: rgb(255, 0, 0);
+    animation: 
+    typing 3.5s steps(1),
+    blink-caret 0.25s step-end infinite alternate;
+}
+#plebs{
+    overflow: hidden;
+    border-right: 30px  rgb(255, 255, 255) solid;
+    white-space: nowrap;
+    margin:0 auto;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: 100;
+    font-size: larger;
+    display: block;
+    color: rgb(255, 0, 0);
+    animation: 
+    typing 3.5s steps(1),
+    blink-caret 0.25s step-end infinite alternate;
+}
+@keyframes typing {
+    from {width:0}
+    
+}
+@keyframes blink-caret {
+    50% { border-color: transparent }
+  }
