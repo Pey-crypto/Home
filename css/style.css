@@ -1,39 +1,79 @@
-#info{
+html{
+    min-height: 100%;
     overflow: hidden;
-    border-right: 30px  rgb(255, 255, 255) solid;
-    white-space: nowrap;
-    margin:0 auto;
+  }
+  body{
+    height: calc(100vh - 8em);
+    color: red;
+  }
+  .line-1{
+      position:absolute;
+      top: 20px;
+      width: 100%;  
+      width: 24em;
+      margin: 0 auto;
+      border-right: 15px solid rgba(255,255,255,.75);
+      font-size: 180%;
+      text-align:left;
+      white-space: nowrap;
+      overflow: hidden;
+      transform: translateY(-50%);    
+  }
+  .plebs{
+      position: absolute;
+      margin: 20px;
+      top: 40px;
+      width: 100%;  
+  }
+  .plebs2{
     position: absolute;
-    top: 10px;
+    margin: 20px;
+    top: 200px;
     width: 100%;
-    text-align: 100;
-    font-size: larger;
-    display: block;
-    color: rgb(255, 0, 0);
-    animation: 
-    typing 3.5s steps(1),
-    blink-caret 0.25s step-end infinite alternate;
-}
-#plebs{
-    overflow: hidden;
-    border-right: 30px  rgb(255, 255, 255) solid;
+  }
+  #scr{
+    display: inline-block;
+  	overflow: hidden;
     white-space: nowrap;
-    margin:0 auto;
-    position: absolute;
-    top: 10px;
-    width: 100%;
-    text-align: 100;
-    font-size: larger;
-    display: block;
-    color: rgb(255, 0, 0);
-    animation: 
-    typing 3.5s steps(1),
-    blink-caret 0.25s step-end infinite alternate;
-}
-@keyframes typing {
-    from {width:0}
-    
-}
-@keyframes blink-caret {
-    50% { border-color: transparent }
+    position: fixed;
+    margin: 20px;
+    right: 0;
+    bottom:0;
+    font-family:  monospace;
+    color: rgb(0, 255, 0);
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 2px;
+    animation:anim-scr 3s steps(15) 1s 1 normal both;
+  }
+  .anim-hack{
+      animation: break 1.5s steps(10) 1s 1 normal both;
+  }
+
+  .anim-typewriter{
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+               blinkTextCursor 500ms steps(40) infinite normal;
+  }
+
+  @keyframes anim-scr{
+    from { 
+      width: 0% 
+  }
+  to { 
+      width: 30% 
+  }
+  }
+  @keyframes break {
+    from{color: black;
+        width: 0;}
+    to{color:rgb(0, 255, 0);
+        width:24em;}
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 24em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
   }
