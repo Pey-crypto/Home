@@ -38,13 +38,88 @@ html{
     position: fixed;
     margin: 20px;
     right: 0;
-    bottom:0;
+    bottom:90px;
     font-family:  monospace;
     color: rgb(0, 255, 0);
     font-style: normal;
     font-size: 13px;
     letter-spacing: 2px;
     animation:anim-scr 3s steps(15) 1s 1 normal both;
+  }
+  #acr{
+    display: inline-block;
+  	overflow: hidden;
+    white-space: nowrap;
+    position: fixed;
+    margin: 20px;
+    right: 0;
+    bottom:75px; 
+    font-family:  monospace;
+    color: rgb(0, 255, 0);
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 2px;
+    animation:anim-acr 3s steps(15) 5s 1 normal both;
+  }
+  #bcr{
+    display: inline-block;
+  	overflow: hidden;
+    white-space: nowrap;
+    position: fixed;
+    margin: 20px;
+    right: 0;
+    bottom:60px;
+    font-family:  monospace;
+    color: rgb(0, 255, 0);
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 2px;
+    animation:anim-bcr 5s steps(15) 11s 1 normal both;
+  }
+  #ccr{
+    display: inline-block;
+  	overflow: hidden;
+    white-space: nowrap;
+    position: fixed;
+    margin: 20px;
+    right: 0;
+    bottom:45px;
+    font-family:  monospace;
+    color: rgb(0, 255, 0);
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 2px;
+    animation:anim-ccr 5s steps(15) 16s 1 normal both;
+  }
+  #dcr{
+    display: inline-block;
+  	overflow: hidden;
+    white-space: nowrap;
+    position: fixed;
+    margin: 20px;
+    right: 0;
+    bottom:30px;
+    font-family:  monospace;
+    color: rgb(0, 255, 0);
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 2px;
+    animation:anim-dcr 5s steps(15) 21s 1 normal both;
+  }
+  #ecr{
+    display: inline-block;
+  	overflow: hidden;
+    white-space: nowrap;
+    position: fixed;
+    margin: 20px;
+    right: 0;
+    bottom:15px;
+    font-family:  monospace;
+    color: rgb(0, 255, 0);
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 2px;
+    animation:anim-ecr 5s steps(15) 28s 1 normal both;
   }
   .anim-hack{
       animation: break 1.5s steps(10) 1s 1 normal both;
@@ -60,7 +135,52 @@ html{
       width: 0% 
   }
   to { 
-      width: 30% 
+      width: 19% 
+  }
+  }
+  
+  @keyframes anim-acr{
+    from { 
+      width: 0% 
+  }
+  to { 
+      width: 8% 
+  }
+  }
+  
+  @keyframes anim-bcr{
+    from { 
+      width: 0% 
+  }
+  to { 
+      width: 40% 
+  }
+  }
+  
+  @keyframes anim-ccr{
+    from { 
+      width: 0% 
+  }
+  to { 
+      width: 20% 
+  }
+  }
+  
+  @keyframes anim-dcr{
+    from { 
+      width: 0% 
+  }
+  to { 
+      width: 13% 
+  }
+  }
+  
+  @keyframes anim-ecr{
+    from { 
+      width: 0% 
+  }
+  to { 
+      width: 13% 
   }
   }
   @keyframes break {
