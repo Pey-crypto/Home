@@ -1,3 +1,6 @@
 # Home
+
 welcome internet
-blinking Home page of omjelo
+
+blinking home page of omjelo
+Deployment on : [Omjelo is here](https://pey-crypto.github.io/Home/)
