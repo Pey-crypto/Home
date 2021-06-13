@@ -31,6 +31,13 @@ html{
     top: 200px;
     width: 100%;
   }
+  #status{
+    position: absolute;
+    font-family: monospace;
+    top: 0px;
+    margin: 20px;
+    right: 0px;
+  }
   #scr{
     display: inline-block;
   	overflow: hidden;
