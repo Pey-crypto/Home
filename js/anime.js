@@ -51,4 +51,5 @@ if(gl && gl instanceof WebGLRenderingContext){
 }
 else{
     window.alert('WebGL not available');
+    
 }
